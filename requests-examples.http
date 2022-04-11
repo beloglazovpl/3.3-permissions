@@ -11,7 +11,7 @@ Content-Type: application/json
 # создание объявления
 POST {{baseUrl}}/advertisements/
 Content-Type: application/json
-Authorization: Token c8e86ba2d268b5d7d6fc79f531053b901e0c04b0
+Authorization: Token f6dd6651e890a21b84b5424bb04e200a65b5293d
 
 {
   "title": "Черновик",
@@ -23,11 +23,11 @@ Authorization: Token c8e86ba2d268b5d7d6fc79f531053b901e0c04b0
 # попытка поменять объявление
 PATCH {{baseUrl}}/advertisements/8/
 Content-Type: application/json
-Authorization: Token c8e86ba2d268b5d7d6fc79f531053b901e0c04b0
+Authorization: Token f6dd6651e890a21b84b5424bb04e200a65b5293d
 
 {
-  "status": "CLOSED",
-  "description": "Кот пушистый черный"
+  "status": "OPEN",
+  "description": "Кот полосатый"
 }
 
 ###
